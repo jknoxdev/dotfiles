@@ -50,5 +50,14 @@
 [pull]
   rebase = false
 [user]
-	email = techbiotic@posteo.de
+	email = 84554596+jknoxdev@users.noreply.github.com
 	name = Justin Knox
+[credential]
+	helper = store
+[jknoxdev "techbiotic@posteo"]
+	de = techbiotic@posteo.de
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f

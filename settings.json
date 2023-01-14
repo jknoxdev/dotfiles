@@ -1,5 +1,5 @@
 {
-    "editor.detectIndentation": false,
+    "editor.detectIndentation": true,
     "editor.formatOnPaste": true,
     "editor.minimap.enabled": false,
     "editor.multiCursorModifier": "ctrlCmd",
@@ -75,5 +75,9 @@
     {
         "rubocop": true
     },
-    "workbench.startupEditor": "newUntitledFile"
+    "workbench.startupEditor": "newUntitledFile",
+    "explorer.confirmDragAndDrop": false,
+    "files.autoSave": "afterDelay",
+    "workbench.colorTheme": "SynthWave '84",
+    "window.zoomLevel": -1
 }
