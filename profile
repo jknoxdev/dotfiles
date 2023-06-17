@@ -5,3 +5,5 @@
 #type -a pyenv > /dev/null && eval "$(pyenv init --path)"
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$PATH=/usr/local/bin"
+export PATH="$PATH:$HOME/.local/bin"
+export PATH="$PATH:/home/arx/.local/bin"

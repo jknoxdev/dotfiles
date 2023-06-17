@@ -62,7 +62,6 @@
         "**/tmp/**": true,
         "**/vendor/**": true
     },
-    "git.enabled": false,
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
     "[python]":
@@ -79,5 +78,8 @@
     "explorer.confirmDragAndDrop": false,
     "files.autoSave": "afterDelay",
     "workbench.colorTheme": "SynthWave '84",
-    "window.zoomLevel": -1
+    "editor.inlineSuggest.enabled": true,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "git.autofetch": true
 }
